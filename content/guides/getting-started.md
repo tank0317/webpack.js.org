@@ -132,7 +132,7 @@ __dist/index.html__
    </head>
    <body>
 -    <script src="./src/index.js"></script>
-+    <script src="bundle.js"></script>
++    <script src="./dist/bundle.js"></script>
    </body>
   </html>
 ```
@@ -269,7 +269,7 @@ webpack-demo
 |- webpack.config.js
 |- /dist
   |- bundle.js
-  |- index.html
+|- index.html
 |- /src
   |- index.js
 |- /node_modules
